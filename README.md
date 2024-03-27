@@ -40,11 +40,11 @@ brew install --cask iterm2
 
 ![Chosen One - Collab](images/collab.png)
 
-## Chosen One - [Easter](themes/chosenone-easter.omp.json)
+### Chosen One - [Easter](themes/chosenone-easter.omp.json)
 
 ![Chosen One - Tonbal](images/easter.png)
 
-## Chosen One - [Jicor](themes/chosenone-jicor.omp.json)
+### Chosen One - [Jicor](themes/chosenone-jicor.omp.json)
 
 ![Chosen One - Tonbal](images/jicor.png)
 
