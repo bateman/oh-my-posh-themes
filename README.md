@@ -32,9 +32,9 @@ brew install --cask iterm2
 
 ## Themes
 
-### Chosen One - [Blueish](themes/chosenone-blueish.omp.json)
+### Chosen One - [Blues](themes/chosenone-blues.omp.json)
 
-![Chosen One - Blueish](images/blueish.png)
+![Chosen One - Blues](images/blues.png)
 
 ### Chosen One - [Collab](themes/chosenone-collab.json)
 
