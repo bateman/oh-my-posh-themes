@@ -88,6 +88,7 @@
     },
     {
       "alignment": "right",
+      "overflow": "hide",
       "segments": [
         {
           "background": "#ffffff",
@@ -152,6 +153,12 @@
       "newline": true,
       "segments": [
         {
+          "type": "iterm",
+          "interactive": true,
+          "style": "plain",
+          "template": "{{ .PromptMark }}"
+        },
+        {
           "background": "#40c4ff",
           "foreground": "#ffffff",
 
@@ -172,7 +179,7 @@
       "type": "prompt"
     }
   ],
-  "console_title_template": "{{.UserName}}@{{.HostName}} : {{.Folder}}",
+  "console_title_template": "{{.PWD}}",
   "final_space": true,
   "version": 2
 }
