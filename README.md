@@ -30,11 +30,13 @@ brew install jandedobbeleer/oh-my-posh/oh-my-posh
 Add the following configuration to `.zshrc`:
 
 ```shell
-# Oh My Posh -- edit your preferred theme
+# Oh My Posh
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
   eval "$(oh-my-posh init zsh --config $(brew --prefix oh-my-posh)/themes/chosenone-blues.omp.json)"
 fi
 ```
+
+Choose any theme from those listed [below](#themes).
 
 ### Install fonts
 
@@ -69,9 +71,9 @@ source ~/.iterm2_shell_integration.zsh
 
 ### Chosen One - [Easter](themes/chosenone-easter.omp.json)
 
-![Chosen One - Tonbal](images/easter.png)
+![Chosen One - Easter](images/easter.png)
 
 ### Chosen One - [Jicor](themes/chosenone-jicor.omp.json)
 
-![Chosen One - Tonbal](images/jicor.png)
+![Chosen One - Jicor](images/jicor.png)
 
