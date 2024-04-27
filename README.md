@@ -1,6 +1,6 @@
 # Oh My Posh themes
 
-A collection of personal themes to be used with Oh My ZSH / Oh My Posh
+A collection of personal themes to be used with [Oh My ZSH](https://ohmyz.sh) / [Oh My Posh](https://ohmyposh.dev)
 
 ## Prerequisites
 
