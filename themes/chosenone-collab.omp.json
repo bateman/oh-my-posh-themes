@@ -111,7 +111,7 @@
             "always_enabled": true
           },
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,background>\ue0b2</>",
+          "trailing_diamond": "\ue0d6",
           "template": "\uf252 {{ .FormattedMs }}",
           "foreground": "#ffc107",
           "background": "#18354c",
@@ -125,7 +125,7 @@
             "discharging_icon": "\uf242 "
           },
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,background>\ue0b2</>",
+          "trailing_diamond": "\ue0d6",
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}% ",
           "foreground": "#ffc107",
           "background": "#18354c",

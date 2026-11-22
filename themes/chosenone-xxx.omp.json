@@ -61,7 +61,7 @@
             "style": "agnoster_short"
           },
           "style": "diamond",
-          "leading_diamond": "<transparent,background>\ue0b0</>",
+          "leading_diamond": "\ue0d7",
           "trailing_diamond": "\ue0b0",
           "template": " {{ .Path }} ",
           "type": "path"
@@ -80,7 +80,7 @@
             "fetch_status": true,
             "fetch_upstream_icon": true
           },
-          "leading_diamond": "<transparent,background>\ue0b0</>",
+          "leading_diamond": "\ue0d7",
           "trailing_diamond": "\ue0b0",
           "style": "diamond",
           "template": " {{ .UpstreamIcon }}{{ .HEAD }}{{if .BranchStatus }} {{ .BranchStatus }}{{ end }}{{ if .Staging.Changed }} \uf046 {{ .Staging.String }}{{ end }}{{ if and (.Working.Changed) (.Staging.Changed) }} |{{ end }}{{ if .Working.Changed }} \uf044 {{ .Working.String }}{{ end }}{{ if gt .StashCount 0 }} \ueb4b {{ .StashCount }}{{ end }} ",
@@ -112,7 +112,7 @@
           },
           "style": "diamond",
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,background>\ue0b2</>",
+          "trailing_diamond": "\ue0d6",
           "template": "\uf252 {{ .FormattedMs }}",
           "type": "executiontime"
         },
@@ -130,7 +130,7 @@
             "discharging_icon": "\uf242 "
           },
           "leading_diamond": "\ue0b2",
-          "trailing_diamond": "<transparent,background>\ue0b2</>",
+          "trailing_diamond": "\ue0d6",
           "style": "diamond",
           "template": " {{ if not .Error }}{{ .Icon }}{{ .Percentage }}{{ end }}{{ .Error }}% ",
           "type": "battery"
