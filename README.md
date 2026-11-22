@@ -65,7 +65,7 @@ source ~/.iterm2_shell_integration.zsh
 
 ![Chosen One - Blues](images/blues.png)
 
-### Chosen One - [Collab](themes/chosenone-collab.json)
+### Chosen One - [Collab](themes/chosenone-collab.omp.json)
 
 ![Chosen One - Collab](images/collab.png)
 
